@@ -29,6 +29,15 @@ To run the test:
 pytest test_prompt.py
 ```
 
+## Tech Notes
+
+- Built with Streamlit and OpenAI’s GPT-3.5 API
+- Simple prompt engineering with genre and character selection
+- Basic unit testing in `test_prompt.py`
+- CI/CD enabled with GitHub Actions (`.github/workflows/test.yml`)
+- Deployed via Streamlit Cloud
+
+
 ## Notes
 
 I wanted to make sure the code was easy to read and organized. I added some error handling in case the API doesn't respond properly, and I tried to write the prompt in a way that allows for variety in the outputs without making things too unpredictable. It’s deployed on Streamlit Cloud, but the structure is modular enough that it could also be extended further. I just wanted to build something that feels personal while staying technically clean.
