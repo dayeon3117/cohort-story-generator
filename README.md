@@ -33,6 +33,12 @@ pytest test_prompt.py
 
 I wanted to make sure the code was easy to read and organized. I added some error handling in case the API doesn't respond properly, and I tried to write the prompt in a way that allows for variety in the outputs without making things too unpredictable. It’s deployed on Streamlit Cloud, but the structure is modular enough that it could also be extended further. I just wanted to build something that feels personal while staying technically clean.
 
+## Live Demo
+
+## Live Demo
+
+[Try the app here](https://cohort-story-generator-jmouokusujj2mmayrha3pq.streamlit.app)
+
 ## Author
 
 Dayeon Kang  
