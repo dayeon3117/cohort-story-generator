@@ -35,8 +35,6 @@ I wanted to make sure the code was easy to read and organized. I added some erro
 
 ## Live Demo
 
-## Live Demo
-
 [Try the app here](https://cohort-story-generator-jmouokusujj2mmayrha3pq.streamlit.app)
 
 ## Author
