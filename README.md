@@ -37,6 +37,8 @@ I wanted to make sure the code was easy to read and organized. I added some erro
 
 [Try the app here](https://cohort-story-generator-jmouokusuji2mmayrha3pq.streamlit.app/)
 
+![App Screenshot](screenshot.png)
+
 ## Author
 
 Dayeon Kang  
