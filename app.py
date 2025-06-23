@@ -30,5 +30,3 @@ if st.button("Generate Story"):
             else:
                 st.markdown("## Your Story")
                 st.write(story)
-
-›
