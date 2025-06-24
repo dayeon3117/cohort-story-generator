@@ -1,4 +1,4 @@
-# Cohort Drama Simulator
+# Cohort Story Generator
 
 This app uses GPT-3.5 to write short fictional stories using names from our AIPI cohort. You pick a genre and a few classmates, and it generates something creative with them as the characters. It was a fun way to experiment with large language models while building something simple and interactive.
 
