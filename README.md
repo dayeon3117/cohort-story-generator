@@ -32,10 +32,12 @@ pytest test_prompt.py
 ## Tech Notes
 
 - Built with Streamlit and OpenAI’s GPT-3.5 API
-- Simple prompt engineering with genre and character selection
+- Uses a custom prompt template to build genre specific story prompts
+- Loads names dynamically from a JSON file
 - Basic unit testing in `test_prompt.py`
-- CI/CD enabled with GitHub Actions (`.github/workflows/test.yml`)
-- Deployed via Streamlit Cloud
+- CI/CD enabled via GitHub Actions (`.github/workflows/test.yml`)
+- Error handling included for API issues and UI input checks
+- Deployed on Streamlit Cloud
 
 
 ## Notes
