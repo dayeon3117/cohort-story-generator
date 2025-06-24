@@ -50,6 +50,22 @@ I wanted to make sure the code was easy to read and organized. I added some erro
 
 ![App Screenshot](screenshot.png)
 
+## Project Structure
+```
+├── app.py                  # Main Streamlit app. Handles UI and app logic
+├── prompts.py              # Builds the genre based prompt using selected names
+├── cohort_list.json        # Holds names of cohort members for selection
+├── test_prompt.py          # Basic unit test to verify prompt creation
+├── requirements.txt        # Lists all Python dependencies
+├── .github/workflows/
+│   └── test.yml            # GitHub Actions workflow to run tests on push
+├── utils/
+│   └── generate_story.py   # Sends prompt to OpenAI API and returns story
+├── screenshot.png          # App UI preview for README
+├── .gitignore              # Excludes environment files and bytecode
+└── README.md               # Project documentation
+```
+
 ## Author
 
 Dayeon Kang  
